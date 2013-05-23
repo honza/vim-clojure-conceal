@@ -1,8 +1,9 @@
 Vim Clojure Conceal
 ===================
 
-Unicode lambdas Clojure using Vim's conceal feature. By default, the plugin
-conceals all `defn` statements.
+Add some unicode goodness to your Clojure files.  `defn` becomes `ƒ` and `fn`
+becomes `λ`.
+
 For example:
 
 ```clojure
@@ -26,13 +27,20 @@ becomes:
 ```
 
 Installation
-============
+------------
 
 Drop clojure.vim to `~/.vim/after/syntax` (Linux/Mac OS X/BSD) or
 `~/vimfiles/after/syntax` folder (Windows). Or install with pathogen or vundle
 in the usual way.
 
 License
-=======
+-------
 
 BSD, short and sweet.
+
+Credit
+------
+
+Original version by [Filip Wolanski][1]
+
+[1]: https://github.com/fwolanski/vim-clojure-conceal
